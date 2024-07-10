@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 
 html,
 body {
@@ -7,8 +8,7 @@ body {
   background-color: #f6f6f6;
   display: flex;
   justify-content: center;
-  font-family: "Nanum Pen Script";
-  /*font-family: "Yeon Sung";*/
+  font-family: 'Jua';
 }
 
 body {
