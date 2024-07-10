@@ -1,8 +1,8 @@
-import emotion1 from './assets/img/emotion1.png'
-import emotion2 from './assets/img/emotion2.png'
-import emotion3 from './assets/img/emotion3.png'
-import emotion4 from './assets/img/emotion4.png'
-import emotion5 from './assets/img/emotion5.png'
+import emotion1 from '../assets/img/emotion1.png'
+import emotion2 from '../assets/img/emotion2.png'
+import emotion3 from '../assets/img/emotion3.png'
+import emotion4 from '../assets/img/emotion4.png'
+import emotion5 from '../assets/img/emotion5.png'
 
 export const getEmotionImageById = (emotionId) => {
   const targetEmotionId = String(emotionId)

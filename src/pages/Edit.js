@@ -26,9 +26,9 @@ const Edit = () => {
   const onClickDelete = () => {
     setShowModal(true)
     setModalText('일기를 정말로 삭제할까요? 다시 복구되지 않아요!')
-    setConfirmAction(() => executeDelete)
+    setConfirmAction(() => handleDelete)
   }
-  const executeDelete = () => {
+  const handleDelete = () => {
     onDelete(id)
     navigate('/', { replace: true })
   }

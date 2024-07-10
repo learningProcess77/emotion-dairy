@@ -3,7 +3,7 @@ import useDiary from 'src/hooks/useDiary'
 import Header from 'src/component/common/Header'
 import Button from 'src/component/common/Button'
 import Viewer from 'src/component/Viewer'
-import { getFormattedDate } from 'src/util'
+import { getFormattedDate } from 'src/utils/util'
 
 const Diary = () => {
   const { id } = useParams()

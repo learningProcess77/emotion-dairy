@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { ModalDispatchContext, ModalStateContext } from 'src/App'
 import Button from 'src/component/common/Button'
 import EmotionItem from 'src//component/EmotionItem'
-import { getFormattedDate, emotionList } from 'src/util'
+import { getFormattedDate, emotionList } from 'src/utils/util'
 import 'src/styles/Editor.css'
 
 const Editor = ({ initData, onSubmit }) => {

@@ -1,4 +1,4 @@
-import { emotionList } from 'src/util'
+import { emotionList } from 'src/utils/util'
 import 'src/styles/Viewer.css'
 
 const Viewer = ({ content, emotionId }) => {

@@ -47,12 +47,12 @@
 
 .DiaryItem .info_section .date_wrapper {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 5px;
 }
 
 .DiaryItem .info_section .content_wrapper {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .DiaryItem .button_section {

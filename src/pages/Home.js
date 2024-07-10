@@ -3,7 +3,7 @@ import { DiaryStateContext } from 'src/App'
 import Header from 'src/component/common/Header'
 import Button from 'src/component/common/Button'
 import DiaryList from 'src/component/DiaryList'
-import { getMonthRangeByDate } from 'src/util'
+import { getMonthRangeByDate } from 'src/utils/util'
 
 const Home = () => {
   const data = useContext(DiaryStateContext)

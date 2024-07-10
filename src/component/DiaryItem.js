@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import Button from 'src/component/common/Button'
-import { getEmotionImageById } from 'src/util'
+import { getEmotionImageById } from 'src/utils/util'
 import 'src/styles/DiaryItem.css'
 
 const DiaryItem = ({ id, emotionId, content, date }) => {
